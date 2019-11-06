@@ -1,5 +1,5 @@
 body{
-    background-image: url(../assets/images/criss-cross.png);
+    background-image: url(../assets/images/subtleBackdrop.jpg);
 }
 .bodyContainer{
     background-image: url(../assets/images/plain-white-background.jpg);
@@ -30,8 +30,15 @@ h3{
     background: #4aaaa5;
     text-align: center;
 }
+.section{
+    align-content: center;
+}
 
 .portfolioItem {
     width: 100%;
     min-height: 200px;
+}
+.portfolioPic{
+    height: 200px;
+    width: 300px;
 }

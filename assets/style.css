@@ -1,8 +1,8 @@
 body{
-    background-image: url(../images/criss-cross.png);
+    background-image: url(../assets/images/criss-cross.png);
 }
 .bodyContainer{
-    background-image: url(../images/plain-white-background.jpg);
+    background-image: url(../assets/images/plain-white-background.jpg);
     margin-top: 20px;
     max-width: 960px;
     width: 100%;

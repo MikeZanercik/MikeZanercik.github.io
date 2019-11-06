@@ -1,0 +1,37 @@
+body{
+    background-image: url(../images/criss-cross.png);
+}
+.bodyContainer{
+    background-image: url(../images/plain-white-background.jpg);
+    margin-top: 20px;
+    max-width: 960px;
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+}
+* {
+    box-sizing: border-box
+}
+h1{
+    color: #4aaaa5;
+    display: block;
+    border-bottom: solid grey 2px;
+    padding-bottom: 1%;
+}
+header{
+    background: white;
+}
+h3{
+    width: 300px;
+    line-height: 50px;
+    position:relative;
+    bottom: 10vh;
+    color: white;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+.portfolioItem {
+    width: 100%;
+    min-height: 200px;
+}

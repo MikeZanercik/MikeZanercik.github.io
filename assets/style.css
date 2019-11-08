@@ -1,19 +1,32 @@
+* {
+    box-sizing: border-box
+}
 body{
     background-image: url(../assets/images/subtleBackdrop.jpg);
 }
 .bodyContainer{
-    background-image: url(../assets/images/plain-white-background.jpg);
+    background-image: url(../assets/images/subtleGridPattern.jpg);
     margin-top: 20px;
     max-width: 960px;
     width: 100%;
     padding: 10px;
     margin: 20px auto;
 }
-* {
-    box-sizing: border-box
+.navbar-light{
+    text-align: center; 
+    /* padding-left: 25%; */
+    background-color: #000040;
+    min-width: 300px;
 }
+.navbar-light .navbar-brand{
+    color: white;
+}
+.navbar-expand-lg .navbar-toggler{
+    float: right;
+}
+
 h1{
-    color: #4aaaa5;
+    color: #000040;
     display: block;
     border-bottom: solid grey 2px;
     padding-bottom: 1%;
@@ -27,7 +40,7 @@ h3{
     position:relative;
     bottom: 10vh;
     color: white;
-    background: #4aaaa5;
+    background: #000040;
     text-align: center;
 }
 .section{
@@ -41,4 +54,14 @@ h3{
 .portfolioPic{
     height: 200px;
     width: 300px;
+}
+.profilePic{
+    height: 200px;
+    width: 200px;
+}
+li:hover{
+    border-top: 5px solid #000040;
+}
+.nav-item:hover{
+    border-top: 5px solid #000040;
 }

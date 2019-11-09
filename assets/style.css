@@ -13,16 +13,15 @@ body{
     margin: 20px auto;
 }
 .navbar-light{
-    text-align: center; 
-    /* padding-left: 25%; */
+    padding-left: 25%;
     background-color: #000040;
-    min-width: 300px;
+    min-width: 275px;
 }
 .navbar-light .navbar-brand{
     color: white;
 }
 .navbar-expand-lg .navbar-toggler{
-    float: right;
+    align-content: right;
 }
 
 h1{
@@ -49,11 +48,13 @@ h3{
 
 .portfolioItem {
     width: 100%;
-    min-height: 200px;
+    min-height: 200px;  
 }
+
 .portfolioPic{
     height: 200px;
     width: 300px;
+    align-content: center;
 }
 .profilePic{
     height: 200px;
@@ -64,4 +65,27 @@ li:hover{
 }
 .nav-item:hover{
     border-top: 5px solid #000040;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 7%;
+    background: grey;
+    color: white; 
+    text-align: center; 
+    padding: 10px;
+    display: block; 
+    border-top: solid #000040 5px;
+}
+.fa-linkedin{
+    font-size: 42px;
+    margin;: 0 10%;
+}
+.fa-github{
+    font-size: 42px;
+    margin: 0 10%;
+}
+.links{
+    text-align: center;
 }

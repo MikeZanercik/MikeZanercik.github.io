@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box
+}
+body, html{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background-image: url(../images/blackballs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+.col-12{
+    text-align: center;
+    margin: 10vh auto;
+}
+#welcome{
+    margin-top: 25vh;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh; 
+    text-align: center; 
+    display: block; 
+    background: black;
+}
+h1{
+    font-size: 100px;
+    color: rgb(33, 140, 148);
+}
+h2{
+    color: rgb(33, 140, 148);  
+}
+h3{
+    color: rgb(33, 140, 148);  
+}
+h4{
+    color: rgb(33, 140, 148);   
+}
+.fab{
+    font-size: 400%;
+    margin: 0 5vw;
+    color: rgb(33, 140, 148);
+}
+.fa-chevron-down{
+    font-size: 500%;
+    color: rgb(214, 211, 211);
+    text-align: center;
+    align-content: center;
+}
+.portfolioPic{
+    height: 300px;
+    width: 450px;
+}
+.portfolioItem{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+.portfolio-small{
+    height: 200px;
+    width: 300px;
+}

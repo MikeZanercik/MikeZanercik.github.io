@@ -89,5 +89,12 @@ h4{
 .buffer{
     height: 10vh;
 }
+#projectHeading{
+    text-align: center;
+    margin-bottom: 5vh;
+    font-weight: bold;
+    padding-bottom: 3vh;
+    border-bottom: solid 2px darkslategrey;
+}
 
 

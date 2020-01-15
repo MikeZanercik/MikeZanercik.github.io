@@ -15,7 +15,7 @@ body{
 }
 @media only screen and (max-width: 600px) {
 body {
-    background-color: rgba(46, 45, 45, 0.411);
+    background-color: smokewhitea(46, 45, 45, 0.411);
     }
   }
 
@@ -34,16 +34,16 @@ footer{
     background: black;
 }
 h1{
-    color: rgb(33, 140, 148);
+    color: whitesmoke
 }
 h2{
-    color: rgb(33, 140, 148);  
+    color:  whitesmoke;  
 }
 h3{
-    color: rgb(33, 140, 148);  
+    color:  whitesmoke;  
 }
 h4{
-    color: rgb(33, 140, 148);   
+    color:  whitesmoke;   
 }
 .intro{
     min-width: 300px;
@@ -52,11 +52,11 @@ h4{
 .fab{
     font-size: 400%;
     margin: 0 5vw;
-    color: rgb(33, 140, 148);
+    color: smokewhite(33, 140, 148);
 }
 .fa-chevron-down{
     font-size: 500%;
-    color: rgb(214, 211, 211);
+    color: smokewhite(214, 211, 211);
     text-align: center;
     align-content: center;
 }
@@ -72,3 +72,22 @@ h4{
     height: 200px;
     width: 300px;
 }
+.container{
+    align-content: center;
+}
+.top{
+    width: 100vw;
+    text-align: center;
+    align-content: center;
+}
+.main{
+    margin-top: 75vh;
+}
+.label{
+    color: darkslategrey;
+}
+.buffer{
+    height: 10vh;
+}
+
+

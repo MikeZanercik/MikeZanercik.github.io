@@ -7,9 +7,9 @@ body, html{
 }
 @media only screen and (min-width: 600px){
 body{
-    background-image: url(../images/blackballs.jpg);
+    background-image: url(../images/black\ wood.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     margin-bottom: 10vh;
 }
 }
@@ -20,6 +20,7 @@ body {
   }
 
 #welcome{
+    display: inline-block;
     font-size: 200%;
     margin-top: 25vh;
     margin-bottom: 10vh
@@ -44,10 +45,6 @@ h3{
 }
 h4{
     color:  whitesmoke;   
-}
-.intro{
-    min-width: 300px;
-    text-align: center;
 }
 .fab{
     font-size: 400%;

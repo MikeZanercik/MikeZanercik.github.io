@@ -9,13 +9,13 @@ Included on this site are links to the deployed applications as well as links to
 ## Overview
 * The entire portfolio is made up of one page to create a simplistic and user friendly way of displaying my work. The user first is greeted with a simple message and brief overview of who I am, what I do, and how to get in touch with me.
 
-![Screen 1](assets\images\screenCap.PNG)
+![Screen 1](/assets\images\screenCap.PNG)
 
 <hr>
 
 * As the user scrolls down on the page they see the various project and other works I have included in this portfolio. I wanted to display my work in a simple and aestheticly pleasing way that can be enjoyed by someone of any level of technical knowledge or experience. 
 
-![Screen 2](assets\images\projectsCap.PNG)
+![Screen 2](/assets\images\projectsCap.PNG)
 
 * At all times someone visiting this site has easy access to my LinkedIn, GitHub, and Resume.
 
